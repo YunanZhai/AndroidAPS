@@ -33,6 +33,7 @@ import org.mockito.ArgumentMatchers.anyLong
 import org.mockito.ArgumentMatchers.anyString
 import org.mockito.Mock
 import org.mockito.kotlin.anyOrNull
+import org.mockito.kotlin.mock
 import org.mockito.kotlin.never
 import org.mockito.kotlin.verify
 import org.mockito.kotlin.whenever
@@ -85,7 +86,7 @@ internal class LoadProfileStoreWorkerTest : TestBaseWithProfile() {
         nsClientV3Plugin = NSClientV3Plugin(
             aapsLogger, rh, preferences, rxBus, context,
             receiverDelegate, config, dateUtil, dataSyncSelectorV3, persistenceLayer,
-            nsClientSource, storeDataForDb, decimalFormatter, l, nsClientRepository, uel, activePlugin
+            nsClientSource, storeDataForDb, decimalFormatter, l, nsClientRepository, uel, activePlugin, mock()
         )
         nsClientV3Plugin.newestDataOnServer = LastModified(LastModified.Collections())
     }

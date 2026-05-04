@@ -71,7 +71,6 @@ import app.aaps.core.keys.BooleanKey
 import app.aaps.core.keys.IntKey
 import app.aaps.core.keys.IntNonKey
 import app.aaps.core.keys.interfaces.Preferences
-import app.aaps.core.nssdk.interfaces.RunningConfiguration
 import app.aaps.core.objects.constraints.ConstraintObject
 import app.aaps.core.objects.extensions.asAnnouncement
 import app.aaps.core.objects.extensions.convertedToAbsolute
@@ -115,7 +114,6 @@ class LoopPlugin @Inject constructor(
     private val dateUtil: DateUtil,
     private val uel: UserEntryLogger,
     private val persistenceLayer: PersistenceLayer,
-    private val runningConfiguration: RunningConfiguration,
     private val uiInteraction: UiInteraction,
     private val notificationManager: NotificationManager,
     private val pumpEnactResultProvider: Provider<PumpEnactResult>,
@@ -990,7 +988,6 @@ class LoopPlugin @Inject constructor(
                 pump = pumpStatusProvider.generatePumpJsonStatus().toString(),
                 uploaderBattery = receiverStatusStore.batteryLevel,
                 isCharging = receiverStatusStore.isCharging,
-                configuration = runningConfiguration.configuration().toString()
             )
         )
     }
