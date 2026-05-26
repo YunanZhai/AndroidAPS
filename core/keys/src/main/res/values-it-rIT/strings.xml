@@ -31,6 +31,8 @@
     <string name="pref_title_alert_carbs_required">Avviso se sono richiesti CHO</string>
     <string name="pref_title_alert_urgent_as_android_notification">Alza gli avvisi urgenti come notifiche Android</string>
     <string name="pref_title_alert_increase_volume">Aumenta gradualmente il volume delle notifiche</string>
+    <string name="pref_title_alert_override_dnd">Ignora la modalità Non Disturbare</string>
+    <string name="pref_summary_alert_override_dnd">Se abilitata, gli avvisi AAPS giocano attraverso modalità silenziosa e non disturbare (flusso di avvisi). Quando disabilitato, gli avvisi rispettano silenzioso/DND (flusso di notifica).</string>
     <!-- BG Source preferences -->
     <string name="pref_title_bg_source_upload_to_ns">Carica dati BG su NS</string>
     <string name="pref_title_bg_source_create_sensor_change">Registra cambio sensore</string>
