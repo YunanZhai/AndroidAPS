@@ -31,6 +31,9 @@
     <string name="pref_title_alert_carbs_required">需要碳水化合物時發出警示</string>
     <string name="pref_title_alert_urgent_as_android_notification">以 Android 通知顯示緊急警報</string>
     <string name="pref_title_alert_increase_volume">逐步提高通知音量</string>
+    <string name="pref_title_alert_override_dnd">允許覆寫「請勿打擾」模式</string>
+    <string name="pref_summary_alert_override_dnd">啟用後，AAPS 警報會在靜音模式與「請勿打擾」模式下播放（使用鬧鐘音訊串流）。
+停用後，警報會遵循靜音／「請勿打擾」設定（使用通知音訊串流）。</string>
     <!-- BG Source preferences -->
     <string name="pref_title_bg_source_upload_to_ns">將血糖資料上傳至 NS</string>
     <string name="pref_title_bg_source_create_sensor_change">記錄傳感器更換</string>
