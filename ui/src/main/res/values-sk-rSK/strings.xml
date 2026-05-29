@@ -303,4 +303,6 @@
     <string name="widget_rm_disabled">Vypnutý</string>
     <string name="widget_rm_suspended">Pozastavený</string>
     <string name="widget_rm_resume">Obnoviť</string>
+    <!-- Calibration entry rejection reasons -->
+    <!-- Calibration preflight messages shown in the dialog before submit -->
 </resources>
