@@ -761,7 +761,7 @@
     <string name="history" comment="Tab/screen title for viewing past events">Lịch sử</string>
     <string name="overview_reservoir_concentration_value_over">Còn hơn %1$s</string>
     <!--    Constraints-->
-    <string name="limitingbasalratio">Giới hạn tỷ lệ nền tối đa ở %1$.2f U/h do %2$s</string>
+    <string name="limitingbasalratio">Giới hạn tỷ lệ liều nền tối đa ở %1$.2f U/h do %2$s</string>
     <string name="pumplimit">giới hạn Bơm</string>
     <string name="limitingpercentrate">Giới hạn tỷ lệ phần trăm tối đa %1$d%% do %2$s</string>
     <string name="itmustbepositivevalue">phải nhập giá trị dương</string>
