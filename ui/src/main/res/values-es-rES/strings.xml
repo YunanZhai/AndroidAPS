@@ -303,4 +303,6 @@
     <string name="widget_rm_disabled">Desactivado</string>
     <string name="widget_rm_suspended">Suspendido</string>
     <string name="widget_rm_resume">Reanudar</string>
+    <!-- Calibration entry rejection reasons -->
+    <!-- Calibration preflight messages shown in the dialog before submit -->
 </resources>
