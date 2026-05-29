@@ -303,4 +303,6 @@
     <string name="widget_rm_disabled">已禁用</string>
     <string name="widget_rm_suspended">已暂停</string>
     <string name="widget_rm_resume">恢复</string>
+    <!-- Calibration entry rejection reasons -->
+    <!-- Calibration preflight messages shown in the dialog before submit -->
 </resources>
