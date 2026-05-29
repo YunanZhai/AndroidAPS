@@ -223,6 +223,8 @@
     <string name="pref_title_sms_remote_bolus_distance">Khoảng tối thiểu bolus từ xa</string>
     <!-- IntKey: BG Source preferences -->
     <string name="pref_title_random_bg_interval">Khoảng thời gian BG ngẫu nhiên</string>
+    <string name="pref_title_random_bg_randomize">Dữ liệu BG ngẫu nhiên</string>
+    <string name="pref_summary_random_bg_randomize">Thêm nhiễu, làm lệch nhẹ dấu thời gian, ngẫu nhiên hóa mũi tên xu hướng và thỉnh thoảng tạo carb ngẫu nhiên. Tắt để dùng sóng sin xác định sạch với mũi tên xu hướng được suy ra từ độ dốc của sóng sin.</string>
     <!-- IntKey: NS Client preferences -->
     <string name="pref_title_alarm_stale_data">Ngưỡng báo động dữ liệu lỗi thời</string>
     <string name="pref_title_urgent_alarm_stale_data">Ngưỡng báo động khẩn cấp cho dữ liệu lỗi thời</string>
