@@ -68,6 +68,7 @@
     <string name="configbuilder_insulin">Insulin</string>
     <string name="configbuilder_bgsource">Nguồn Đường huyết</string>
     <string name="configbuilder_smoothing">Làm mượt</string>
+    <string name="configbuilder_calibration">Hiệu chuẩn</string>
     <string name="configbuilder_pump">Bơm Insulin</string>
     <string name="configbuilder_sensitivity">Phát hiện độ nhạy insulin</string>
     <string name="configbuilder_aps">APS</string>
@@ -535,6 +536,7 @@
     <string name="uel_tt_ns_refresh">CẬP NHẬT TEMP TARGET TỪ NS</string>
     <string name="uel_automation_removed">ĐÃ XÓA TỰ ĐỘNG HOÁ</string>
     <string name="uel_bg_removed">BG REMOVED</string>
+    <string name="uel_calibration_removed">ĐÃ XÓA HIỆU CHUẨN</string>
     <string name="uel_careportal_removed">ĐÃ XÓA THÔNG TIN ĐIỀU TRỊ</string>
     <string name="uel_bolus_removed">ĐÃ XÓA BOLUS</string>
     <string name="uel_carbs_removed">ĐÃ XÓA CARBS</string>
