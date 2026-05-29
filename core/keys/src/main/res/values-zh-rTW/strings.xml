@@ -224,6 +224,8 @@
     <string name="pref_title_sms_remote_bolus_distance">遠端注射的最小距離</string>
     <!-- IntKey: BG Source preferences -->
     <string name="pref_title_random_bg_interval">隨機血糖間隔</string>
+    <string name="pref_title_random_bg_randomize">隨機化血糖資料</string>
+    <string name="pref_summary_random_bg_randomize">加入雜訊、使時間戳記產生抖動、隨機化趨勢箭頭，並偶爾產生隨機碳水化合物。停用則會提供乾淨且可預測的正弦波，趨勢箭頭源自正弦斜率。</string>
     <!-- IntKey: NS Client preferences -->
     <string name="pref_title_alarm_stale_data">資料過期警報門檻</string>
     <string name="pref_title_urgent_alarm_stale_data">緊急資料過期警報門檻</string>
