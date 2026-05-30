@@ -68,6 +68,7 @@
     <string name="configbuilder_insulin">Insulina</string>
     <string name="configbuilder_bgsource">Fuente de glucosa</string>
     <string name="configbuilder_smoothing">Suavizado</string>
+    <string name="configbuilder_calibration">Calibración</string>
     <string name="configbuilder_pump">Bomba</string>
     <string name="configbuilder_sensitivity">Detección de sensibilidad</string>
     <string name="configbuilder_aps">APS</string>
@@ -535,6 +536,7 @@
     <string name="uel_tt_ns_refresh">ACTUALIZAR OBJETIVO TEMPORAL EN NS</string>
     <string name="uel_automation_removed">AUTOMACIÓN ELIMINADA</string>
     <string name="uel_bg_removed">BG ELIMINADO</string>
+    <string name="uel_calibration_removed">CALIBRACIÓN ELIMINADA</string>
     <string name="uel_careportal_removed">PORTAL DE CUIDADOS ELIMINADO</string>
     <string name="uel_bolus_removed">BOLO ELIMINADO</string>
     <string name="uel_carbs_removed">CARBOHIDRATOS ELIMINADOS</string>
