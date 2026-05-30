@@ -223,6 +223,8 @@
     <string name="pref_title_sms_remote_bolus_distance">Distancia mínima para bolo remoto</string>
     <!-- IntKey: BG Source preferences -->
     <string name="pref_title_random_bg_interval">Intervalo de glucemia aleatorio</string>
+    <string name="pref_title_random_bg_randomize">Aleatorizar datos de glucemia</string>
+    <string name="pref_summary_random_bg_randomize">Añadir ruido, alterar marcas de tiempo, aleatorizar flechas de tendencia y emitir carbohidratos aleatorios ocasionalmente. Desactívalo para obtener una onda senoidal limpia y determinante con la flecha de tendencia calculada según la pendiente</string>
     <!-- IntKey: NS Client preferences -->
     <string name="pref_title_alarm_stale_data">Umbral de alarma por datos desactualizados</string>
     <string name="pref_title_urgent_alarm_stale_data">Umbral de alarma urgente por datos desactualizados</string>
