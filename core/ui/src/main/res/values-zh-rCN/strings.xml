@@ -68,6 +68,7 @@
     <string name="configbuilder_insulin">胰岛素</string>
     <string name="configbuilder_bgsource">血糖来源</string>
     <string name="configbuilder_smoothing">平滑</string>
+    <string name="configbuilder_calibration">校准</string>
     <string name="configbuilder_pump">胰岛素泵</string>
     <string name="configbuilder_sensitivity">灵敏度检测</string>
     <string name="configbuilder_aps">APS</string>
@@ -535,6 +536,7 @@
     <string name="uel_tt_ns_refresh">从NS刷新临时目标</string>
     <string name="uel_automation_removed">删除自动操作</string>
     <string name="uel_bg_removed">删除血糖数据</string>
+    <string name="uel_calibration_removed">校准已移除</string>
     <string name="uel_careportal_removed">删除护理数据</string>
     <string name="uel_bolus_removed">删除大剂量</string>
     <string name="uel_carbs_removed">删除碳水</string>
