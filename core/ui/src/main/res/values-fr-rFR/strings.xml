@@ -68,6 +68,7 @@
     <string name="configbuilder_insulin">Insuline</string>
     <string name="configbuilder_bgsource">Source GLY</string>
     <string name="configbuilder_smoothing">Lissage</string>
+    <string name="configbuilder_calibration">Calibration</string>
     <string name="configbuilder_pump">Pompe</string>
     <string name="configbuilder_sensitivity">Calcul de Sensibilité</string>
     <string name="configbuilder_aps">APS</string>
@@ -535,6 +536,7 @@
     <string name="uel_tt_ns_refresh">RÉGÉNÉRATION NS CIBLES TEMP</string>
     <string name="uel_automation_removed">AUTOMATISATION SUPPRIMÉE</string>
     <string name="uel_bg_removed">GLY SUPPRIMÉE</string>
+    <string name="uel_calibration_removed">CALIBRATION SUPPRIMÉE</string>
     <string name="uel_careportal_removed">CAREPORTAL SUPPRIMÉ</string>
     <string name="uel_bolus_removed">BOLUS SUPPRIMÉ</string>
     <string name="uel_carbs_removed">GLUCIDES SUPPRIMÉS</string>
