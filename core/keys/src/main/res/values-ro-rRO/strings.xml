@@ -223,6 +223,7 @@
     <string name="pref_title_sms_remote_bolus_distance">Interval minim în minute pentru bolusurile de la distanță</string>
     <!-- IntKey: BG Source preferences -->
     <string name="pref_title_random_bg_interval">Interval de glicemie aleatoriu</string>
+    <string name="pref_title_random_bg_randomize">Randomizați datele de glicemie</string>
     <!-- IntKey: NS Client preferences -->
     <string name="pref_title_alarm_stale_data">Prag alarmă date învechite</string>
     <string name="pref_title_urgent_alarm_stale_data">Prag alarmă urgentă date învechite</string>
