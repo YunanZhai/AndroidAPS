@@ -68,6 +68,7 @@
     <string name="configbuilder_insulin">Insulină</string>
     <string name="configbuilder_bgsource">Sursă glicemie</string>
     <string name="configbuilder_smoothing">Netezire</string>
+    <string name="configbuilder_calibration">Calibrare</string>
     <string name="configbuilder_pump">Pompă</string>
     <string name="configbuilder_sensitivity">Detectare sensibilitate</string>
     <string name="configbuilder_aps">APS</string>
