@@ -304,5 +304,7 @@
     <string name="widget_rm_suspended">Suspendat</string>
     <string name="widget_rm_resume">Reluați</string>
     <!-- Calibration entry rejection reasons -->
+    <string name="cal_reject_delta_too_high">Calibrarea nu a fost salvată: Glicemia se modifică prea repede (£ %1$s %3$s per 5 min, limita %2$s). Încercați din nou când glicemia este stabilă.</string>
+    <string name="cal_reject_no_session">Calibrarea nu a fost salvată: nicio sesiune de senzor nu este activă. Înregistrați o schimbare de senzor mai întâi.</string>
     <!-- Calibration preflight messages shown in the dialog before submit -->
 </resources>
