@@ -224,6 +224,7 @@
     <!-- IntKey: BG Source preferences -->
     <string name="pref_title_random_bg_interval">Interval de glicemie aleatoriu</string>
     <string name="pref_title_random_bg_randomize">Randomizați datele de glicemie</string>
+    <string name="pref_summary_random_bg_randomize">Adăugați zgomot, introduceți variații în marcajele de timp, alegeți aleatoriu direcția săgeților de tendință și emiteți ocazional carbohidrați la întâmplare. Dezactivați funcția pentru a obține o undă sinusoidală curată și deterministă, cu săgeata de tendință calculată pe baza pantei sinusului.</string>
     <!-- IntKey: NS Client preferences -->
     <string name="pref_title_alarm_stale_data">Prag alarmă date învechite</string>
     <string name="pref_title_urgent_alarm_stale_data">Prag alarmă urgentă date învechite</string>
