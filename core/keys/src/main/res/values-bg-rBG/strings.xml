@@ -217,6 +217,34 @@
     <string name="openapsama_max_daily_safety_multiplier_summary">По подразбиране: 3. Това е ключов елемет в OpenAPS сигурността.Какво прави - лимитира базалите то 3 пъти тези от профила. Сигурно няма да има нужда да го променяте.</string>
     <string name="pref_title_current_basal_multiplier">Множител за текущия базал</string>
     <string name="openapsama_current_basal_safety_multiplier_summary">Основна стойност: 4. Това е другата част от границите на сигурността на OpenAPS. Значи че базала (независимо от този зададен в помпата) не може да надвиши текущич базал от профила по този множител. Използва се за да ви предпази от от прекалено големи базали преди да знаете как работи алгоритъма. Повечето хора нямат нужда да го променят.</string>
+    <string name="pref_title_bolus_snooze_divisor">Делител на DIA за отлагане на болус</string>
+    <string name="openapsama_bolus_snooze_dia_divisor_summary">По подразбиране 2.\nОтлагането на болус се прилага след като сложите инсулин за хранене, така че цикъла няма да реагира с намаляване на базала когато се храните. Например при стойност 2 и 3ч DIA означава че отлагането ще се измести с 1.5 часа (3DIA/2).</string>
+    <string name="pref_title_ama_min_5m_carbs_impact">AMA min 5m carbs impact</string>
+    <string name="pref_title_smb_min_5m_carbs_impact">SMB min 5m carbs impact</string>
+    <string name="openapsama_min_5m_carb_impact_summary">По подразбиране:3.0 (AMA) или 8.0 (SMB). Това е настройка колко се абсорбират за 5 мин. По подразбиране 3мг/дл/5мин. Това влияе върху скоростта на усвояване на въглехидратите и на изчисленията за бъдеща въглехидратна абсорбция и колко тя влияе на бъдещата КЗ, когато тя пада и ли не се качва повече от очакваното.</string>
+    <string name="pref_title_absorption_cutoff">Максимална абсорбция</string>
+    <string name="absorption_cutoff_summary">Времето след което всяко хранене се счита за поето. Оставащите въглехидрати ще бъдат премахнати.</string>
+    <string name="pref_title_absorption_maxtime">Максимално Време за абсорбция</string>
+    <string name="absorption_max_time_summary">Времето в часове, за което се очаква всички въглехидрати от храненето да са абсорбирани.</string>
+    <string name="pref_title_autosens_min">Аутосенс минимум</string>
+    <string name="openapsama_autosens_min_summary">По подразбиране: 0.7\nДолната граница на сигурността за това до колко аутосенс може да регулира базалите и колко високо може да настройва ISF и целите.</string>
+    <string name="pref_title_autosens_max">Аутосенс максимум</string>
+    <string name="openapsama_autosens_max_summary">По подразбиране: 1.2\nТова е максимума за аутосенс в това до колко може да достига при регулиране на базали, ISF и целите.</string>
+    <string name="pref_title_autoisf_min">AutoISF минимум</string>
+    <string name="openapsama_autoISF_min_summary">Подобно на autosens_min  това определя колко малък може да стане ISF. \n\nПри стойност от 1 ше изключи тази функция.</string>
+    <string name="pref_title_autoisf_max">AutoISF максимум</string>
+    <string name="openapsama_autoISF_max_summary">Подобно на autosens_max  това определя колко голям може да стане ISF. \n\nПри стойност от 1 ше изключи тази функция. ВНИМАНИЕ: Бъдете внимателни със стойности над 2.5</string>
+    <string name="pref_title_bg_accel_weight">Влияние върху ISF при покачване на КЗ</string>
+    <string name="openapsama_bgAccel_ISF_weight_summary">Това е тежестта на ускоряващата се захар, която усилва ISF и съответно увеличава инсулина доставен.\n\nПо подразбиране 0. Това на практика изключва този ефект.</string>
+    <string name="pref_title_bg_brake_weight">Влияние на намаляваща КЗ върху ISF</string>
+    <string name="openapsama_bgBrake_ISF_weight_summary">Това е тежестта, която се прилага, когато захарта намалява и която увеличава чувствителността. Така намалява инсулиновите корекции потенциално.\n\nПо подразбиране 0, което изключва този ефект.</string>
+    <string name="pref_title_low_bg_weight">Тежест на ниска КЗ</string>
+    <string name="openapsama_lower_ISFrange_weight_summary">Това е тежестта прилагана при КЗ под целта, което увеличава ISF и потенциялно доставката на инсулин.\n\nПо подразбиране: 0, което изключва този ефект.</string>
+    <string name="pref_title_high_bg_weight">Тежест на висока КЗ</string>
+    <string name="openapsama_higher_ISFrange_weight_summary">Това е тежестта прилагана при КЗ надцелта, което намалява ISF и потенциялно увеличава доставката на инсулин.\n\nПо подразбиране: 0, което изключва този ефект.</string>
+    <string name="pref_title_smb_delivery_ratio_bg_range">Диапазон за SMB</string>
+    <string name="openapsama_smb_delivery_ratio_bg_range_summary">По подразбиране: 0. Пускането на SMB се ограничава в границите на [целева захар, целева захар + диапазон. При стойност 0, Няма линейно ускорение в пускането на SMB и фиксираната стойност се използва.].</string>
+    <string name="pref_title_pp_weight">Постпрандиална тезест върху ISF</string>
     <!-- UnitDoubleKey: Overview preferences -->
     <!-- UnitDoubleKey: APS preferences -->
     <!-- IntentKey preferences -->
