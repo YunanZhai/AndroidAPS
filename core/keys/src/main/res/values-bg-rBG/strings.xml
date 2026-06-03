@@ -57,6 +57,12 @@
     <string name="pref_summary_aps_use_uam">Разреши детекция на необявени хранения и третирането им.</string>
     <string name="pref_title_aps_sensitivity_raises_target">Чувствителността увеличава целта</string>
     <string name="pref_summary_aps_sensitivity_raises_target">Когато е засечена чувствителност - повишава целевата КЗ.</string>
+    <string name="pref_title_aps_resistance_lowers_target">Инсулиновата резистентност намалява целта</string>
+    <string name="pref_summary_aps_resistance_lowers_target">Когато е засечена резистентност - намалява целевата КЗ</string>
+    <string name="pref_title_aps_always_use_short_deltas">Винаги използвай краткоср делта</string>
+    <string name="pref_summary_aps_always_use_short_deltas">Винаги използва краткоср делта вместо последната делта за калкулация на промените в КЗ</string>
+    <string name="pref_title_aps_dynisf_adjust_sensitivity">DynamicISF да регулира чувствителността</string>
+    <string name="pref_summary_aps_dynisf_adjust_sensitivity">Използвай DynamicISF за автоматична настройка на чувствителността.</string>
     <string name="pref_title_aps_autosens_adjust_targets">Аутосенс регулира целите</string>
     <string name="pref_summary_aps_autosens_adjust_targets">позволява на Аутосенс да регулира целевата захар в допълнение на базали и ISF</string>
     <string name="pref_title_aps_high_tt_raises_sensitivity">Високите цели вдигат чувствителността</string>
@@ -162,17 +168,61 @@
     <string name="pref_title_sbat_critical">Мин ниво на батерия на помпата</string>
     <string name="pref_title_bage_warning">Време за ползване на батерията на помпата</string>
     <string name="pref_title_bage_critical">Макс време за ползване на батерия на помпата</string>
+    <string name="pref_title_res_warning">Жълта граница за ниво на резервоара</string>
+    <string name="pref_title_res_critical">Червена граница за ниво на инсулин</string>
+    <string name="pref_title_batt_warning">Жълта граница за ниво на батерията</string>
+    <string name="pref_title_batt_critical">Червена граница за ниво на батерията</string>
+    <string name="pref_title_bolus_percentage">Болус процент</string>
+    <string name="deliverpartofboluswizard">Използвай тази стойност при корекция на болуса за КЗ и въгл в болус съветника</string>
+    <string name="pref_title_reset_bolus_percentage_time">Нулиране на времето за болус процент</string>
+    <string name="deliver_part_of_boluswizard_reset_time">Пускай пълния болус (100%) ако захарта е по-стара от</string>
     <!-- IntKey: Protection preferences -->
+    <string name="pref_title_protection_timeout">Таймаут за Защита</string>
+    <string name="pref_title_protection_type_application">Ниво 0: Защита на приложението</string>
+    <string name="pref_summary_protection_type_application">Стартиране на приложението. Независимо от другите нива</string>
+    <string name="pref_title_protection_type_bolus">Ниво 1: Защита при болус</string>
+    <string name="pref_summary_protection_type_bolus">Лечения, смяна на профил. Иска ниво 2.</string>
+    <string name="pref_title_protection_type_settings">Ниво 2: Защита на настройките</string>
+    <string name="pref_summary_protection_type_settings">При редактиране на профили, настройки</string>
     <!-- Protection type entries (canonical location - also used by core/ui) -->
+    <string name="noprotection">Без защита</string>
+    <string name="biometric">Биометрия - пръстов отпечатък</string>
+    <string name="master_password">Главна парола</string>
+    <string name="custom_password">Друга парола</string>
+    <string name="custom_pin">Друг ПИН</string>
     <!-- IntKey: Safety preferences -->
+    <string name="pref_title_max_carbs">Максимални въглехидрати</string>
     <!-- IntKey: Loop preferences -->
+    <string name="pref_title_open_mode_min_change">Минимална промяна в отворен кръг</string>
+    <string name="loop_open_mode_min_change_summary" formatted="false">Отворен кръг ще показва нова заявка за промяна само ако тя е по-голяма от тази стойност в %. Стандартно е 20%</string>
     <!-- IntKey: APS preferences -->
+    <string name="pref_title_smb_frequency">SMB интервал</string>
+    <string name="pref_title_smb_max_minutes">Максимални минути до които да ограничава SMB</string>
+    <string name="pref_title_uam_smb_max_minutes">UAM Максимални минути от базал до които да лимитира SMB</string>
+    <string name="uam_smb_max_minutes">UAM SMB максимум минути</string>
+    <string name="pref_title_carbs_request_threshold">Граница за необходими въглехидрати</string>
+    <string name="carbs_req_threshold_summary">Минимално ниво от грама въглехидрати при което да показва нотификация. При нужни въглехидрати под това ниво няма да се показва съобщение.</string>
+    <string name="pref_title_half_basal_exercise_target">Половин базална цел за активност</string>
+    <string name="half_basal_exercise_target_summary">В число, примерно 160, което значи, че когато цел за физ активност е 160 мг/дл и и високите временни цели вдигат чувствителността , пускай 50% базал при това ниво  (120 = 75%%; 140 = 60%%).</string>
+    <string name="pref_title_iob_threshold_percent">IOB граница в проценти</string>
+    <string name="openapsama_iob_threshold_percent_summary" formatted="false">Процент от максималния IOB над която няма да има SMB.\nСтандартно: 100% при което тази опция е изключена.</string>
+    <string name="pref_title_dynisf_adjustment_factor">Фактор за настройка на DynamicISF</string>
+    <string name="dyn_isf_adjust_summary" formatted="false">Вдигнете на повече от 100% за по-агресивни корекции и на по-малко от 100% за по-слаби.</string>
+    <string name="pref_title_autosens_period">Период за Autosens</string>
+    <string name="openapsama_autosens_period_summary">Времето в часове за определяне на предишна чувствителност ( времето за абсорбция на въглехидрати е изключено)</string>
     <!-- IntKey: Maintenance preferences -->
+    <string name="pref_title_logs_amount">Брой логове за изпращане</string>
     <!-- IntKey: Alert preferences -->
+    <string name="pref_title_stale_data_threshold">Граница за липса на данни</string>
+    <string name="pref_title_pump_unreachable_threshold">Граница за недостъпна помпа</string>
     <!-- IntKey: Insulin preferences -->
     <!-- IntKey: Autotune preferences -->
+    <string name="pref_title_autotune_days">Дни за настройка</string>
+    <string name="autotune_default_tune_days_summary">Броят дни по подразбиране, които Autotune да използва за изчисления по подразбиране (максимум 30)</string>
     <!-- IntKey: SMS preferences -->
+    <string name="pref_title_sms_remote_bolus_distance">Дистанция за отдалечен болус</string>
     <!-- IntKey: BG Source preferences -->
+    <string name="pref_title_random_bg_interval">Интервал на случайните захари</string>
     <string name="pref_title_random_bg_randomize">Пускай случайна захар</string>
     <string name="pref_summary_random_bg_randomize">Добавя шум. различно време. случайни трендови стрелки е пускай различни въглехидрати. Изключете за чиста синусоидна крива с тренд извлечен от наклона.</string>
     <!-- IntKey: NS Client preferences -->
@@ -283,8 +333,16 @@
     <string name="smscommunicator_allowednumbers">Разрешени мобилни номера</string>
     <string name="smscommunicator_allowednumbers_summary">+359XXXXXXXXXХХ;+359УУYYYYYYYYУ</string>
     <string name="smscommunicator_otp_pin">Допълнителен задължителен ПИН в края на токен</string>
+    <string name="smscommunicator_otp_pin_summary">Допълнителни цифри, които трябва да запомните и добавяте в края на всяка еднократна парола</string>
     <!-- StringKey: Virtual pump preferences -->
+    <string name="pref_title_virtual_pump_type">Тип помпа</string>
     <!-- StringKey: NS Client preferences -->
+    <string name="ns_client_url_title">Nightscout адрес</string>
+    <string name="ns_client_url_summary">Въведете вашият Nightscout адрес (примерно https://yoursitename.yourplatform.dom)</string>
+    <string name="ns_client_secret_title">Nightscout парола</string>
+    <string name="ns_client_secret_summary">Въведете паролата на вашият Nightscout (мин. 12 символа)</string>
+    <string name="nsclient_token_title">Токен за достъп до Nightscout</string>
+    <string name="nsclient_token_summary">Въведете Nightscout токен (мин. 17 символа)</string>
     <string name="ns_wifi_ssids">WiFi SSID на мрежа</string>
     <string name="ns_wifi_ssids_summary">Позволени SSID (разделени с точка и запетая)</string>
     <!-- DoubleKey: Overview preferences -->
