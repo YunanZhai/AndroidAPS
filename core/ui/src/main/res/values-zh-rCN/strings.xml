@@ -454,6 +454,8 @@
     <string name="location_front_left_lower_abdomen">左下腹部前侧</string>
     <string name="location_back_right_buttock">右臀部</string>
     <string name="location_back_left_buttock">左臀部</string>
+    <string name="location_back_right_lower_back">右下背部</string>
+    <string name="location_back_left_lower_back">左下背部</string>
     <string name="location_side_right_upper_thigh">右大腿外侧上部</string>
     <string name="location_side_left_upper_thigh">左大腿外侧上部</string>
     <string name="location_side_right_lower_thigh">右大腿外侧下部</string>
