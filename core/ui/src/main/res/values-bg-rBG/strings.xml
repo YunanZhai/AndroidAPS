@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="error_field_must_not_be_empty">Полето не може да е празно</string>
+    <string name="error_mustbe4hexadidits">Може да бъде само 4 символа между ABCDEF0123456789</string>
     <!--    General-->
+    <string name="treatments">Лечения</string>
+    <string name="treatments_history">История на леченията</string>
+    <string name="treatments_desc">Прегледай и редактирай леченията</string>
+    <string name="nav_configuration">Конфигурация</string>
     <string name="refresh">Обнови</string>
     <string name="error">Грешка</string>
     <string name="profile_set_ok">Профила на помпата е обновен</string>
