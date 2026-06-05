@@ -347,9 +347,59 @@
     <string name="scene_action_smb_off">Изключи SMB</string>
     <string name="scene_action_running_mode">Режим: %1$s</string>
     <string name="scene_action_careportal">Запис: %1$s</string>
+    <string name="scene_management">Сценарии</string>
+    <string name="scene_management_desc">Създай, редактирай и управлявай сценарии</string>
+    <string name="scene_action_count">%1$d действия</string>
+    <string name="scene_start_from_template">Стартирай от темплейт</string>
+    <string name="scene_editor_reason">Причина</string>
+    <string name="scene_editor_target">Цел</string>
+    <string name="scene_editor_tt_preset">Шаблон на цел</string>
+    <string name="scene_editor_no_tt_presets">Няма дефинирани шаблони за цел</string>
+    <string name="scene_editor_select_tt_preset">Изберете Шаблон</string>
+    <string name="scene_editor_percentage">Процент</string>
+    <string name="scene_editor_profile">Профил</string>
+    <string name="scene_editor_keep_current_profile">-- запази текущия --</string>
+    <string name="scene_editor_mode">Режим</string>
+    <string name="scene_editor_event_type">Тип събитие</string>
+    <string name="scene_editor_note">Бележка</string>
+    <string name="scene_icon">Икона</string>
+    <string name="scene_editor_enabled">Включено</string>
+    <string name="scene_editor_disabled">Изключено</string>
+    <string name="scene_summary">%1$d действия, %2$s</string>
+    <string name="scene_duration_indefinite">Безкрайно (ръчно спиране)</string>
+    <string name="scene_some_actions_failed">Някой действия не проработиха</string>
+    <string name="scene_no_active">Няма активе сценарий</string>
+    <string name="scene_some_reverts_failed">Някой действия за връщане не проработиха</string>
+    <string name="scene_no_profile_store">Няма профили</string>
+    <string name="scene_no_actions">Сценарият няма действия</string>
+    <string name="scene_profile_not_found">Профил \"%1$s\" не е намерен</string>
+    <string name="scene_revert_tt">Изключи временна цел</string>
+    <string name="scene_revert_profile">Върни промяната на профил</string>
+    <string name="scene_revert_smb_on">Пусни SMB</string>
+    <string name="scene_revert_smb_off">Изключи SMB</string>
+    <string name="scene_revert_loop_mode">Изключи смяната на режима</string>
+    <string name="scene_careportal_no_revert">Careportal данните няма да се отменят</string>
+    <string name="careportal_sickness">Болест</string>
+    <string name="careportal_stress">Стрес</string>
+    <string name="careportal_pre_period">Пре-цикъл</string>
+    <string name="careportal_alcohol">Алкохол</string>
+    <string name="careportal_cortisone">Кортизон</string>
+    <string name="careportal_feeling_low">Усещане за ниски</string>
+    <string name="careportal_feeling_high">Усещане за високи</string>
+    <string name="careportal_falling_asleep">Заспиване</string>
+    <string name="careportal_waking_up">Събуждане</string>
     <string name="careportal_temporarytargetvalue">Стойност временна цел</string>
     <string name="careportal_temporarytargetcancel">Откажи временна цел</string>
     <string name="boluswizard">Болус калкулатор</string>
+    <string name="treatment_desc">Запис на инсулин и въглехидрати заедно</string>
+    <string name="treatment_insulin_desc">Постави инсулина ръчно</string>
+    <string name="treatment_carbs_desc">Запиши въглехидрати без инсулин</string>
+    <string name="treatment_calculator_desc">Изчисли болус</string>
+    <string name="insulin_management">Инсулин</string>
+    <string name="manage_insulin_desc">Редакция и активация на инсолинови конфигурации</string>
+    <string name="concentration_disable_blocked">Не може да изключите поддръжката на концентрация докато има инсулини различни от 100E/мл съществуват. Изтрийте всички такива конфигурации и превключете на профил с концентрация U100.</string>
+    <string name="simple_mode_blocked_by_concentration">Не може да включите опростен режим докато ползвате инсулин, който не е U100ед/мл. Първо превключете към такъв.</string>
+    <string name="manage_profile_desc">Редакция и активация на профили</string>
     <string name="manage_temp_target_desc">Настройки на Временни цели</string>
     <string name="manage_temp_basal_desc">Стартирай временен базал</string>
     <string name="manage_extended_bolus_desc">Стартирай удължен болус</string>
@@ -740,11 +790,54 @@
     <!-- Export dialog strings -->
     <string name="master_password_missing">Главната парола не е зададена!\n\nМоля задайте я и опитайте отново.</string>
     <string name="export_to">Експорт на настройки в</string>
+    <string name="password_preferences_encrypt_prompt">Ще Ви попитам за главната парола, която ще използвам за криптиране на настройките.</string>
+    <string name="preferences_export_canceled">Експортът е спрян! Настройките НЕ СА ЕКСПОРТИРАНИ!</string>
     <!-- <unattended_export result messages> -->
+    <string name="export_result_message_exported">Настройките са експортирани</string>
+    <string name="export_result_message_failed">Експорт на настройки СЕ ИЗДЪНИ!</string>
+    <string name="export_result_message_about_to_expire">Настройките са експортирани: паролата изтича скоро. Експортирайте ръчно и потвърдете паролата.</string>
+    <string name="export_result_message_expired">Експорт на настройките е невъзможен: изтекла парола. Експортирайте ръчно и я въведете отново.</string>
+    <string name="export_result_message_disabled">Внимание (автомация): експорт на настройки не е позволен!</string>
     <!-- Cloud export -->
+    <string name="export_cloud_success">Експорт в клауда успешен!</string>
+    <string name="export_cloud_failed">Експорт в клауда НЕУСПЕШЕН!</string>
+    <string name="csv_exported">Потребителските лечения са експортирани</string>
+    <string name="csv_export_failed">Експорт на потребителските лечения СЕ ИЗДЪНИ!</string>
+    <string name="logs_sent">Логове изпратени през мейл</string>
+    <string name="logs_send_failed">Не успях да пратя логовете</string>
+    <string name="cloud_directory">Клауд локация</string>
+    <string name="cloud_token_expired_or_invalid">Оторизацията за клауда е невалидна или изтекла. Моля логнете се отново.</string>
     <!-- Export destination chip labels -->
+    <string name="chip_local">Локално</string>
+    <string name="chip_cloud">Клауд</string>
+    <string name="chip_email">Имейл</string>
+    <string name="send_logs">Изпрати логове</string>
+    <string name="file_management">Управление на файлове</string>
+    <string name="database_management">Управление на база данни</string>
+    <string name="data_choices">Избор на данни</string>
+    <string name="unattended_settings_export">Разреши автоматизирания експорт на настройки</string>
     <!-- Maintenance bottom sheet descriptions -->
+    <string name="maintenance_log_settings_desc">Детайлност на логовете</string>
+    <string name="maintenance_send_logs_desc">Споделяне на логовете за оправяне на грешки</string>
+    <string name="maintenance_delete_logs_desc">Изтриване на стари логове</string>
+    <string name="maintenance_aaps_directory_desc">Изберете локална директория за запис</string>
+    <string name="maintenance_cloud_directory_desc">Настройте клауд (Google Drive)</string>
+    <string name="maintenance_export_desc">Съхранявай криптирани настройки</string>
+    <string name="maintenance_import_desc">Възстановяване на настройки от бекъп</string>
+    <string name="maintenance_export_csv_desc">Експортирай лечения като таблица</string>
+    <string name="maintenance_cleanup_db_desc">Премахни стари записи от базата</string>
+    <string name="maintenance_reset_aps_results_desc">Изчисти записаните резултати на алгоритъма</string>
+    <string name="maintenance_reset_db_desc">Изтрий цялата база и презареди</string>
     <!-- Cloud directory dialog (Compose) -->
+    <string name="select_storage_type">Изберете тип на мястото за съхранение</string>
+    <string name="clear_cloud_action">Изчисти настройките</string>
+    <string name="clear_cloud_settings">Изчисти настройките на клауд</string>
+    <string name="clear_cloud_settings_message">Това ще превключи към локалната база. Продължаваме ли?</string>
+    <string name="cloud_connection_failed">Неуспешна връзка с клауда</string>
+    <string name="cloud_reauthorize_message">Неуспешна връзка с клауда. Да опитаме с друга парола?</string>
+    <string name="reauthorize">Нова оторизация</string>
+    <string name="cloud_auth_success">Успешно свързване с клауда</string>
+    <string name="authorization_status">Статус</string>
     <string name="format_hour_minute">%1$dч %2$dм</string>
     <!-- datetime layout -->
     <string name="event_time_label">Време на събитие</string>
@@ -753,14 +846,21 @@
     <!--    Combo-->
     <string name="user_request" comment="26 characters max for translation">Потребителско запитване</string>
     <!--    Pump pair/unpair (shared) -->
+    <string name="pump_pair">Свържи</string>
+    <string name="pump_unpair">Раздвояване</string>
+    <string name="pump_unpair_confirm_title">Разкачи помпата?</string>
     <string name="pump_paired" comment="26 characters max for translation">Помпата е свързана</string>
     <!--    BlePreCheck-->
     <string name="ble_not_supported">Bluetooth Low Energy не се поддържа.</string>
     <string name="ble_not_supported_or_not_paired">Нискоенергиен Bluetooth не се потдържа или устройството не е сдвоено.</string>
     <string name="ble_not_enabled">Bluetooth не е включен.</string>
+    <string name="ble_permissions_missing">Нямам разрешение за Bluetooth. Позволете такъв в Android настройките.</string>
     <!--    Preferences -->
     <string name="nav_plugin_preferences">Настройки на модул</string>
     <!-- Navigation -->
+    <string name="nav_about">За приложението</string>
+    <string name="nav_about_desc">Версия на приложението и информация</string>
+    <string name="nav_exit">Изход</string>
     <string name="open_navigation">Отвори навигация</string>
     <string name="nav_history_browser">История</string>
     <string name="nav_history_browser_desc">История в графики</string>
@@ -849,11 +949,59 @@
     <string name="ic_dynamic_label_warning">Алгоритъмът може да прави динамична калкулация на инс/въгл. Стойностите ще се използват като резерва при липсващи данни или като отправна точка</string>
     <string name="isf_dynamic_label_warning">Алгоритъмът може да направи динамична калкулация на ISF. /стойностите долу ще се използват като резерва при липсващи данни или само като рефентни</string>
     <string name="add_time_block">Добави времева част</string>
+    <string name="remove_entry">Премахни запис</string>
+    <string name="target_low_label">Ниска</string>
+    <string name="target_high_label">Висока</string>
     <!--    Search-->
+    <string name="search">Търси</string>
+    <string name="clear">Изчисти</string>
+    <string name="search_category_categories">Категории</string>
+    <string name="search_category_preferences">Опции</string>
+    <string name="search_category_dialogs">Диалози</string>
+    <string name="search_category_plugins">Плъгини</string>
+    <string name="search_category_wiki">Документация</string>
+    <string name="wiki_search_offline">Търсенето в документацията изисква интернет</string>
+    <string name="no_search_results">Няма резултати</string>
+    <string name="search_plugin_disabled">Плъгин %1$s е изключен</string>
     <!--    Food Management -->
+    <string name="food_management">Храна</string>
+    <string name="food_deleted">Изтрита храна</string>
+    <string name="edit_food">Редакция храна</string>
+    <string name="add_food">Добави храна</string>
+    <string name="name">Име</string>
+    <string name="category">Категория</string>
+    <string name="subcategory">Подкатегория</string>
+    <string name="portion">Порция</string>
+    <string name="unit_label">Единица</string>
+    <string name="undo">Отмяна</string>
+    <string name="no_data">Няма данни</string>
+    <string name="manage_food_desc">Редактирай записи за хранене</string>
+    <string name="label_carbs_g">Въглехидрати (гр)</string>
+    <string name="label_fat_g">Мазнини (гр)</string>
+    <string name="label_protein_g">Протеини (гр)</string>
+    <string name="label_energy_kj">Енергия (kJ)</string>
     <!--    Log Settings-->
+    <string name="nav_logsettings">Настройки на логовете</string>
+    <string name="resettodefaults">Възстанови настройките по подразбиране</string>
     <!--    Maintenance-->
+    <string name="maintenance">Поддръжка</string>
+    <string name="description_maintenance">Предоставя няколко функции за поддръжка (напр. изпращане и изтриване на логовете).</string>
+    <string name="log_files">Log файлове</string>
+    <string name="delete_logs">Изтрий логове</string>
+    <string name="logs_deleted">Логовете са изтрити</string>
+    <string name="aaps_directory">AAPS директория</string>
+    <string name="import_setting">Импорт настройки</string>
     <!-- Import settings screen -->
+    <string name="import_decrypt_review">Декрипт &amp; Преглед</string>
+    <string name="import_decrypt">Декриптиране</string>
+    <string name="import_master_password">Главна парола</string>
+    <string name="import_decryption_password">Парола за декриптиране</string>
+    <string name="import_different_password_hint">Файлът е бил криптиран с друга парола</string>
+    <string name="import_wrong_password">Грешна парола</string>
+    <string name="import_btn">Импорт</string>
+    <string name="import_anyway_btn">Импортиране въпреки това</string>
+    <string name="import_restart_title">Настройките са импортирани</string>
+    <string name="import_restart_message">Настройките са импортирани. Трябва рестарт на приложението.</string>
     <string name="import_source_local">Локално</string>
     <string name="import_source_cloud">Клауд</string>
     <string name="import_load_more">Зареди още</string>
