@@ -201,4 +201,11 @@
     <string name="loop_status_open">Отворен кръг</string>
     <string name="loop_status_lgs">LGS</string>
     <string name="loop_status_disabled">Цикъл изключен</string>
+    <string name="loop_status_suspended">Кръг изключен</string>
+    <string name="loop_status_pump_suspended">Изключена помпа</string>
+    <string name="loop_status_dst_suspended">Изключен от смяна на времето</string>
+    <string name="loop_status_disconnected">Помпата не е свързана</string>
+    <string name="loop_status_superbolus">Суперболус</string>
+    <string name="loop_status_unknown">Неизвестно</string>
+    <string name="loop_status_result">Резултат</string>
 </resources>
