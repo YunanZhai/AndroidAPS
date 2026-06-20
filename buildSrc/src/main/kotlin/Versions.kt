@@ -9,8 +9,8 @@ object Versions {
     const val versionCode = 1500
 
     const val compileSdk = 36
-    const val minSdk = 31
-    const val targetSdk = 32
+    const val minSdk = 31  // Android 12 (API 31) - maintains compatibility with Android 11
+    const val targetSdk = 35  // Target Android 14 (API 35) - backward compatible
     const val wearMinSdk = 30
     const val wearTargetSdk = 30
 
