@@ -7,7 +7,7 @@
     <string name="omnipod_common_pod_management_button_activate_pod">Активировать Pod</string>
     <string name="omnipod_common_pod_management_button_deactivate_pod">Деактивировать Pod</string>
     <string name="omnipod_common_pod_management_button_discard_pod">Завершить пользование Pod\'ом</string>
-    <string name="omnipod_common_pod_management_discard_pod_confirmation">Если нажать Завершить пользование Pod\'ом, обмениваться командами с Pod будет невозможно. Делайте это только если связь с помпой постоянно отсутствует. Если связь с Pod еще возможна, воспользуйтесь опцией <b>Деактивировать Pod</b>.\n\n Если все же хотите продолжить, снимите Pod с тела!</string>
+    <string name="omnipod_common_pod_management_discard_pod_confirmation">Если нажать Завершить пользование Pod\'ом, обмениваться командами с [...]
     <string name="omnipod_common_pod_management_button_play_test_beep">Воспроизвести тестовый звуковой сигнал</string>
     <string name="omnipod_common_pod_management_button_playing_test_beep">Воспроизводится тестовый звуковой сигнал…</string>
     <string name="omnipod_common_pod_management_button_pod_history">Журнал Pod</string>
@@ -15,7 +15,7 @@
     <string name="omnipod_common_error_pod_not_attached">Нет активных Pod</string>
     <string name="omnipod_common_error_set_basal_failed">Настройка базального профиля не состоялась.</string>
     <string name="omnipod_common_error_bolus_did_not_succeed">Болюс не подан.</string>
-    <string name="omnipod_common_error_failed_to_set_profile_empty_profile">Не удалось задать базальный профиль: получен пустой профиль. Активируйте профиль базала.</string>
+    <string name="omnipod_common_error_failed_to_set_profile_empty_profile">Не удалось задать базальный профиль: получен пустой профиль. Акти[...]
     <string name="omnipod_common_error_set_initial_basal_schedule_no_profile">Базальный профиль не активен. Активируйте профиль базала.</string>
     <string name="omnipod_common_error_unsupported_custom_command">Неподдерживаемая пользовательская команда: %1$s</string>
     <string name="omnipod_common_error_failed_to_refresh_status">Не удалось обновить статус</string>
@@ -24,9 +24,9 @@
     <string name="omnipod_common_error_failed_to_suspend_delivery">Не удалось приостановить подачу</string>
     <string name="omnipod_common_error_failed_to_set_time">Не удалось задать время</string>
     <string name="omnipod_common_error_failed_to_resume_delivery">Не удалось возобновить подачу</string>
-    <string name="omnipod_common_error_failed_to_initialize_pod">Не удалось инициализировать Pod</string>
+    <string name="omnipod_common_error_failed_to_initialize_pod">Не удалось инициализировать Pod</string>
     <string name="omnipod_common_error_failed_to_insert_cannula">Не удалось установить канюлю</string>
-    <string name="omnipod_common_error_pod_fault_activation_time_exceeded">Превышено время активации Pod. Этот Pod больше не может быть активирован.</string>
+    <string name="omnipod_common_error_pod_fault_activation_time_exceeded">Превышено время активации Pod. Этот Pod больше не может быть активиро[...]
     <string name="omnipod_common_error_failed_to_verify_activation_progress">Не удалось проверить ход активации. Повторите попытку.</string>
     <string name="omnipod_common_error_pod_suspended">Omnipod остановлен</string>
     <string name="omnipod_common_error_failed_to_play_test_beep">Не удалось воспроизвести тестовый звуковой сигнал</string>
@@ -78,22 +78,22 @@
     <string name="omnipod_common_pod_activation_wizard_start_pod_activation_title">Заполнить Pod</string>
     <string name="omnipod_common_pod_activation_wizard_initialize_pod_title">Инициализировать Pod</string>
     <string name="omnipod_common_pod_activation_wizard_attach_pod_title">Подключить Pod</string>
-    <string name="omnipod_common_pod_activation_wizard_attach_pod_text">Подготовьте место инфузии. Удалите колпачок с иглы и защиту липкого слоя, Установите Pod на тело.\n\nесли канюля выступает, нажмите <b>Отмена</b> и утилизируйте Pod.\n\nНажмите <b>Далее</b> чтобы установить катетер и начать подачу базала.</string>
-    <string name="omnipod_common_pod_activation_wizard_attach_pod_confirm_insert_cannula_text">При нажатии <b>OK</b>будет установлен катетер. Убедитесь, что вы подключили Pod к инфузионному отсеку.</string>
+    <string name="omnipod_common_pod_activation_wizard_attach_pod_text">Подготовьте место инфузии. Удалите колпачок с иглы и защиту липкого[...]
+    <string name="omnipod_common_pod_activation_wizard_attach_pod_confirm_insert_cannula_text">При нажатии <b>OK</b>будет установлен катетер. Убедитесь, ч[...]
     <string name="omnipod_common_pod_activation_wizard_insert_cannula_title">Вставить катетер</string>
-    <string name="omnipod_common_pod_activation_wizard_insert_cannula_text">Определение графика подачи базала и установка катетера. \n\n После установки катетера нажмите <b>Далее</b>.</string>
+    <string name="omnipod_common_pod_activation_wizard_insert_cannula_text">Определение графика подачи базала и установка катетера. \n\n После [...]
     <string name="omnipod_common_pod_activation_wizard_pod_activated_title">Pod активирован</string>
-    <string name="omnipod_common_pod_activation_wizard_pod_activated_text">Новый Pod активирован.\n\nБазальный график запрограммирован и катетер установлен.\n\nУбедитесь в том, что катетер установлен правильно и замените Pod, если такой уверенности нет.</string>
+    <string name="omnipod_common_pod_activation_wizard_pod_activated_text">Новый Pod активирован.\n\nБазальный график запрограммирован и катет…[...]
     <!-- Omnipod - Pod Deactivation Wizard -->
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_title">Деактивировать Pod</string>
-    <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_text">\nНажмите <b>Далее</b> для деактивации Pod \n\n<b>Примечание:</b> Это Приостановит любую подачу инсулина и деактивирует помпу.</string>
+    <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_text">\nНажмите <b>Далее</b> для деактивации Pod \n\n<b>Примечание:</b> Это …[...]
     <string name="omnipod_common_pod_deactivation_wizard_deactivating_pod_title">Pod деактивируется</string>
-    <string name="omnipod_common_pod_deactivation_wizard_deactivating_pod_text">Деактивация Pod.\n\nПри успешной деактивации можно нажать <b>Далее</b>.</string>
+    <string name="omnipod_common_pod_deactivation_wizard_deactivating_pod_text">Деактивация Pod.\n\nПри успешной деактивации можно нажать <b>Далее<[...]
     <string name="omnipod_common_pod_deactivation_wizard_pod_deactivated_title">Pod деактивирован</string>
     <string name="omnipod_common_pod_deactivation_wizard_pod_deactivated_text">Pod деактивирован.\n\nУдалите и утилизируйте Pod.</string>
     <string name="omnipod_common_pod_deactivation_wizard_pod_discarded_title">Pod сброшен</string>
-    <string name="omnipod_common_pod_deactivation_wizard_pod_discarded_text">Состояние Pod cброшено. Подача инсулина не была приостановлена, так как Pod не был правильно деактивирован!\n\nУдалите Pod с тела и утилизируйте его.</string>
-    <string name="omnipod_common_pod_deactivation_wizard_discard_pod_confirmation">Если сбросить Pod, дальнейшая коммуникация с ним невозможна. Делайте это только тогда, когда все попытки связи с Pod неудачны. Вы уверены, что хотите cбросить Pod?</string>
+    <string name="omnipod_common_pod_deactivation_wizard_pod_discarded_text">Состояние Pod cброшено. Подача инсулина не была приостановлена, та…[...]
+    <string name="omnipod_common_pod_deactivation_wizard_discard_pod_confirmation">Если сбросить Pod, дальнейшая коммуникация с ним невозможна. Де[...]
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod">Завершить пользование Pod\'ом</string>
     <!-- Omnipod - Preferences -->
     <string name="omnipod_common_preferences_bolus_beeps_enabled">Звуковой сигнал болюса включен</string>
@@ -103,10 +103,10 @@
     <string name="omnipod_common_preferences_suspend_delivery_button_enabled">Показывать кнопку Приостановить подачу на вкладке Omnipod</string>
     <string name="omnipod_common_preferences_time_change_enabled">Включено обнаружение часового пояса</string>
     <string name="omnipod_common_preferences_expiration_reminder_enabled">Включено напоминание об истечении срока действия</string>
-    <string name="omnipod_common_preferences_expiration_reminder_enabled_summary">После активации POD издаст звуковой сигнал в определенное время</string>
+    <string name="omnipod_common_preferences_expiration_reminder_enabled_summary">После активации POD издаст звуковой сигнал в определенное врем[...]
     <string name="omnipod_common_preferences_expiration_reminder_hours_before_expiry">Напомнить за… часов до окончания срока работы (72 часа)</string>
     <string name="omnipod_common_preferences_expiration_alarm_enabled">Включено напоминание об истечении срока работы</string>
-    <string name="omnipod_common_preferences_expiration_alarm_enabled_summary">После активации POD издаст звуковой сигнал в определенное время и за час до отключения</string>
+    <string name="omnipod_common_preferences_expiration_alarm_enabled_summary">После активации POD издаст звуковой сигнал в определенное время [...]
     <string name="omnipod_common_preferences_expiration_alarm_hours_before_shutdown">Оповещение за... часов до выключения (80 часов)</string>
     <string name="omnipod_common_preferences_low_reservoir_alert_enabled">Предупреждение о низком уровне в резервуаре включено</string>
     <string name="omnipod_common_preferences_low_reservoir_alert_units">К-во единиц</string>
@@ -150,7 +150,7 @@
     <string name="omnipod_common_cmd_insert_cannula">Вставить катетер</string>
     <string name="omnipod_common_cmd_read_pulse_log">Читать журнал импульсов</string>
     <string name="omnipod_common_cmd_set_fake_suspended_tbr">Установить фейковый временный базал, так как Pod остановлен</string>
-    <string name="omnipod_common_cmd_cancel_fake_suspended_tbr">Отменить фейковый временный базал, который был создан из-за приостановки действия Pod</string>
+    <string name="omnipod_common_cmd_cancel_fake_suspended_tbr">Отменить фейковый временный базал, который был создан из-за приостанов…[...]
     <string name="omnipod_common_cmd_split_tbr">Разбить временный базаль из-за неясной ошибки при отмене</string>
     <string name="omnipod_common_cmd_play_test_beep">Воспроизвести тестовый звуковой сигнал</string>
     <!-- Omnipod - Alerts -->
